@@ -1,0 +1,18 @@
+$sponsor-item-w: 150px;
+$sponsor-item-h: 50px;
+
+.sponsor-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: $primary2;
+	border: 0.5px solid $primary3;
+
+	padding: 35px 60px;
+
+	&__img {
+		width: $sponsor-item-w;
+		height: $product-card-img-height;
+	}
+}
