@@ -1,6 +1,14 @@
+$super-product-bg-h:600px;
+
 .super-product {
 	background-image: url(../assets/super-product/bg.png);
+	background-repeat: no-repeat;
 	color: $main-text-color;
+
+	height: $super-product-bg-h;
+
+	display: flex;
+	align-items: center;
 
 	&__wrapper {
 		display: flex;
