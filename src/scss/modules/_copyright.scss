@@ -1,0 +1,21 @@
+$bg-copyright: #efefef;
+$text-color-copyright: #828282;
+
+.copyright {
+	background: $bg-copyright;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		padding: 30px 0;
+	}
+
+	&__text,
+	&__link {
+		font-size: 1.2rem;
+		line-height: 1.4rem;
+
+		color: $text-color-copyright;
+	}
+}
